@@ -48,6 +48,10 @@ body {
 
 }
 
+.panel:hover {
+    border:  solid rgb(201, 160, 195);
+}
+
 .panel h3 {
     font-size: 30px;
     position: absolute;
@@ -59,6 +63,8 @@ body {
 
 .panel.active {
     flex: 5;
+
+ 
 }
 
 .panel.active h3 {
